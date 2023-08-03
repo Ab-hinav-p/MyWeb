@@ -63,6 +63,18 @@ body{
     width: 100%;
     background: #171717;
 }
+
+.btn-btn-success{
+    background: #C70039;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: poppins;
+}
 #header{
     background:#171717;
     height: 100vh;
@@ -312,7 +324,6 @@ body{
 .social-media{
     color: white;
     width:  21px;
-    ;
     opacity: .6;
     margin: 8px;
     transition: all .4s ease;
@@ -362,6 +373,10 @@ body{
     content: attr(data-text);
     opacity: 1;
     letter-spacing: 10px;
+}
+.error{
+    color:red;
+    font-family: poppins;
 }
 .contact{
     display: flex;
